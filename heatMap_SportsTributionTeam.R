@@ -81,7 +81,7 @@ heatmap.2(mat_data,
           breaks=col_breaks,    # enable color transition at specified limits
           dendrogram="row",    # only draw a row dendrogram
           rowsep=1:dim(mat_data)[1],
-          colsep=c(13),
+          colsep=c(11),
           sepwidth = c(0.05,0.01),
           RowSideColors = y_tmp,
           key = TRUE,
